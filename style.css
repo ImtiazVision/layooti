@@ -44,8 +44,9 @@
 /* home section styling */
 .home{
   display: flex;
-  background: url("images/layl5.jpg") no-repeat center;
+  background: url("images/layl6.jpg") no-repeat center;
   height: 100vh;
+  background-size: 100% 100%;
   color: rgb(27, 1, 1);
   min-height: 500px;
   font-family: 'Ubuntu', sans-serif;
