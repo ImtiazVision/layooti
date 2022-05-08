@@ -16,8 +16,8 @@
 .navbar{
   position: fixed;
   width: 100%;
-  padding: 15px 0;
-  background: rgb(228, 43, 80);
+  padding: 30px 0;
+  /* background: rgb(228, 43, 80); */
   font-family: 'Ubuntu', sans-serif;
 }
 .navbar .max-width{
@@ -39,6 +39,10 @@
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
+  transition: color .3s ease;
+}
+.navbar .menu li a:hover{
+  color: rgb(228, 43, 80);
 }
 
 /* home section styling */
@@ -66,4 +70,7 @@
   font-size: 40px;
   margin: 5px 0;
 }
-
+.home .home-content .text-3 span {
+  color: rgb(250, 246, 247);
+  font-weight: 500;
+}
