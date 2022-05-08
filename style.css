@@ -46,6 +46,11 @@
   display: flex;
   background: url("images/layl5.jpg") no-repeat center;
   height: 100vh;
-  color: rgb(22, 21, 17); 
+  color: #fff;
   min-height: 500px;
+  font-family: 'Ubuntu', sans-serif;
 }
+.home .max-width{ 
+  margin: auto 0 auto 40px;
+}
+
