@@ -46,5 +46,6 @@
   display: flex;
   background: url("images/layl5.jpg") no-repeat center;
   height: 100vh;
-  color: #fff;
+  color: rgb(22, 21, 17); 
+  min-height: 500px;
 }
